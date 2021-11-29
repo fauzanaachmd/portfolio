@@ -1,0 +1,74 @@
+[
+    {
+        "name": "UseeTV",
+        "shortDescription": "UseeTV GO provides the most complete Indonesia and International live streaming TV channels and thousands of the best cinema films from your smartphone!",
+        "description": "So NBS get hired again to collaborate with Telkom team again to revamp UseeTV apps that I design before as a UI designer then now my role is as a iOS developer (yes it's a jump and I crossed it). Back again to topic, we develop again UseeTV become UseeTVGO with NBS new iOS codebase. What's new in this new codebase? That is we are using MVVM for architectural pattern and home made API general interactor (make it easy for developer to integrate API). You guys can check the app and take a look what me and my team made.",
+        "projectDate": "1577836800",
+        "role": "iOS Developer",
+        "client": "PT. Telekomunikasi Indonesia, Tbk.",
+        "projectLink": "https://apps.apple.com/id/app/useetvgo/id793007789#?platform=iphone",
+        "images": [
+            "https://i.ibb.co/k1gcfzg/492x0w.png",
+            "https://i.ibb.co/KxnwDW7/600x0w-2.jpg",
+            "https://i.ibb.co/RvH3XPz/600x0w.jpg"
+        ]
+    },
+    {
+        "name": "Rumah Kisah IOS",
+        "shortDescription": "Through the life stories of the Apostles, Prophets and Islamic figures. Children can get examples of noble character.",
+        "description": "This is my second project as IOS Engineer. This is my first time supervise other team like giving advice, review their MR, and sharing knowledge. Thanks to my senior for trust me to support new team member. Rumah Kisah's highlighted feature is like my previous project (UseeTV Go Revamp), media player. But in this project the player is audio player like Spotify or Apple music. This new to me! There are 2 challenging part that I want to tell. The first part is download the audio file from server and saved it in local so user not stream from online but play from their local device actually. We used RealmSwift to manage the downloaded file. The second part is about the player and mini player that showed in multiple screen with current playing progress view. For the player we used Apple's AVAudioPlayerKit and for the mini player I solve it with making UIView and insert it to UIStackView that already placed in some viewcontrollers.",
+        "projectDate": "1601560680",
+        "role": "iOS Developer",
+        "client": "PT. Edukasi Anak Indonesia",
+        "projectLink": "https://apps.apple.com/id/app/rumah-kisah/id1544781901",
+        "images": [
+            "https://i.ibb.co/SJS4jf0/comp-Logo-Vertical-2x.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/b6/24/fb/b624fb8b-dfce-7676-683c-2a2095cb0f49/6a83fe3e-221d-412a-9c9f-fa14f1d19cbb_SS-1_ios_1242x2688.png/600x0w.png",
+            "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/dc/27/ae/dc27aef2-0952-42da-35ef-90e5944ec8dd/e818d958-38b9-4e2b-aa87-c455a16b9611_SS-1_ios_1242x2688-1.png/600x0w.png",
+            "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/b4/e3/5b/b4e35ba4-e3fb-b128-f742-161678b17aee/0ce96884-66e8-4e36-806c-c4f196c0e822_iPhone_11_Pro_Max.png/600x0w.png"
+        ]
+    },
+    {
+        "name": "Colibri Website",
+        "shortDescription": "Co-living Made Easy with Colibri",
+        "description": "In this project I use Laravel framework as a tools to build this web. The new experience that I had is using Google Maps Platform to build property search. Colibri offers premium living space that complements all your needs. From stylish room designs to full service, Colibri brings you the convenience of a hassle-free lifestyle to a strategic location to increase your flexibility in traveling between work and home. Get inspired and build your network by going through our passionate members of the Colibri community.",
+        "projectDate": "1575208680",
+        "role": "Web Developer",
+        "client": "PT Digital Services Indonesia Satu",
+        "projectLink": "https://livecolibri.co.id",
+        "images": [
+            "https://i.ibb.co/b65jDx5/colibri.png",
+            "https://i.ibb.co/qmXZKQ7/Screen-Shot-2021-11-28-at-22-00-24.png",
+            "https://i.ibb.co/DgmWnkV/Screen-Shot-2021-11-28-at-22-14-26.png",
+            "https://i.ibb.co/Zdttqjb/Screen-Shot-2021-11-28-at-22-20-12.png"
+        ]
+    },
+    {
+        "name": "Vanaya Digibrain Questionnaire",
+        "shortDescription": "DigiBrain Executive Neurometric is a method designed to assess the readiness of organization leaders in the digital age, through neuro-behavior profiling",
+        "description": "This project main feature is about online survey form for Vanaya's user after completing their neurotechnology test. I use Angular TS as a tools and RXJS for solving user behavior like fast-clicking the answer option when fill the form. When user click the answer option, then the app will send the answer to backend to save user's current progress in database. Then the team found a bug that show user can send multiple answer request when user fast click the option, this can tricky to handle on backend side which data is user want so it must be handled in front end. With RXJS, I can manage the answer form state. I can disabled the form after user clicked the answer and enabled again after the answer request network to backend is completed. So users can't flood the network to backend again.",
+        "projectDate": "1564667880",
+        "role": "Web Developer",
+        "client": "Vanaya Coaching International",
+        "projectLink": "https://vanaya.co.id",
+        "images": [
+            "https://i.ibb.co/WpDprT8/vanaya-logo.png",
+            "https://i.ibb.co/ByNHh60/Login.png",
+            "https://i.ibb.co/y8b129Z/Landing-Page.png",
+            "https://i.ibb.co/f8dx6Zw/Terms-and-Condition.png",
+            "https://i.ibb.co/CMr1556/Questionnaire-1.png"
+        ]
+    },
+    {
+        "name": "ACT News",
+        "shortDescription": "Dapatkan pemberitahuan tentang berita kemanusiaan terbaru di ACT News",
+        "description": "ACT News is a site that provides information about humanity organized by the ACT Foundation. Features available on the site are articles, media centers (electronic magazines, progress reports, and situation reports), and gallery features (photos & infographics). The technologies implemented on this site are: the use of the Laravel framework, NPM, SCSS, Firebase Web Push Notification, and the Youtube Embedded Player API. Also ACT News using self owned CMS for managing its content",
+        "projectDate": "1564667880",
+        "role": "Web Developer",
+        "client": "ACT Foundation",
+        "projectLink": "https://news.act.id",
+        "images": [
+            "https://i.ibb.co/WpDprT8/vanaya-logo.png"
+        ]
+    }
+]
