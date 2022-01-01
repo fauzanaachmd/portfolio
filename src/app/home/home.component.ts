@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from '../../environments/environment';
+import * as AOS from 'aos';
 
 interface PORTFOLIO {
   name : string;
@@ -25,9 +27,14 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    AOS.init({
+      duration: 800,
+      easing: 'ease',
+      once: true,
+   });
   }
 
   getPortfolio() {
-    return this.http.get<PORTFOLIO[]>('/assets/json/portfolio.json');
+    return this.http.get<PORTFOLIO[]>(environment.baseUrl + '/assets/json/portfolio.json');
   }
 }

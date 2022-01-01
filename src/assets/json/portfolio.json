@@ -1,5 +1,20 @@
 [
     {
+        "name": "Sekolahmu",
+        "shortDescription": "Learn from anywhere with a blended learning system, presenting a choice of programs for students, according to their focus and dreams.",
+        "description": "The school with the first blended learning system in Indonesia. Solutions for better and more flexible educational needs. By combining online and offline methods. Your school offers a variety of programs that suit the needs of each user, starting from the need for online learning assistance, increasing learning abilities for competitiveness and meeting competency needs in order to achieve the desired goals.",
+        "projectDate": "1612960080",
+        "role": "iOS Developer",
+        "client": "PT Sekolah Integrasi Digital",
+        "projectLink": "https://apps.apple.com/id/app/sekolah-mu/id1574670707?l=id",
+        "images": [
+            "https://i.ibb.co/CzKhJft/492x0w.png",
+            "https://i.ibb.co/HTS55fP/600x0w.png",
+            "https://i.ibb.co/rQR2ymX/600x0w-2.png",
+            "https://i.ibb.co/2cfG980/600x0w-3.png"
+        ]
+    },
+    {
         "name": "UseeTV",
         "shortDescription": "UseeTV GO provides the most complete Indonesia and International live streaming TV channels and thousands of the best cinema films from your smartphone!",
         "description": "So NBS get hired again to collaborate with Telkom team again to revamp UseeTV apps that I design before as a UI designer then now my role is as a iOS developer (yes it's a jump and I crossed it). Back again to topic, we develop again UseeTV become UseeTVGO with NBS new iOS codebase. What's new in this new codebase? That is we are using MVVM for architectural pattern and home made API general interactor (make it easy for developer to integrate API). You guys can check the app and take a look what me and my team made.",
@@ -48,11 +63,11 @@
         "shortDescription": "DigiBrain Executive Neurometric is a method designed to assess the readiness of organization leaders in the digital age, through neuro-behavior profiling",
         "description": "This project main feature is about online survey form for Vanaya's user after completing their neurotechnology test. I use Angular TS as a tools and RXJS for solving user behavior like fast-clicking the answer option when fill the form. When user click the answer option, then the app will send the answer to backend to save user's current progress in database. Then the team found a bug that show user can send multiple answer request when user fast click the option, this can tricky to handle on backend side which data is user want so it must be handled in front end. With RXJS, I can manage the answer form state. I can disabled the form after user clicked the answer and enabled again after the answer request network to backend is completed. So users can't flood the network to backend again.",
         "projectDate": "1564667880",
-        "role": "Web Developer",
+        "role": "PWA Developer",
         "client": "Vanaya Coaching International",
         "projectLink": "https://vanaya.co.id",
         "images": [
-            "https://i.ibb.co/WpDprT8/vanaya-logo.png",
+            "https://i.ibb.co/hFrLvgv/vanaya-logo.png",
             "https://i.ibb.co/ByNHh60/Login.png",
             "https://i.ibb.co/y8b129Z/Landing-Page.png",
             "https://i.ibb.co/f8dx6Zw/Terms-and-Condition.png",
@@ -68,7 +83,27 @@
         "client": "ACT Foundation",
         "projectLink": "https://news.act.id",
         "images": [
-            "https://i.ibb.co/WpDprT8/vanaya-logo.png"
+            "https://i.ibb.co/YWmrcTK/act-logo.png",
+            "https://i.ibb.co/8DKYDhP/Screen-Shot-2021-12-05-at-20-36-48.png",
+            "https://i.ibb.co/23gyrcD/Screen-Shot-2021-12-05-at-20-43-54.png",
+            "https://i.ibb.co/wKqTWN0/Screen-Shot-2021-12-05-at-20-49-17.png",
+            "https://i.ibb.co/5sYCgS6/Screen-Shot-2021-12-05-at-20-52-41.png"
+        ]
+    },
+    {
+        "name": "Blukendi",
+        "shortDescription": "Blukendi Food Rating & Review PWA",
+        "description": "Blukendi is part of PT Redkendi Andalan Mitra's product, the main feature of this app is user can reviewing food from their office caterers. We use Angular Typescript v6, bootstrap for responsive web design (I know this is too much but this what client ask for), jsqr (for scanning QR code from device camera), and angular material component for mobile looks and experience. To be honest, this is my first time implementing the new Angular typescript. Also I learn something new like DTO (Data Transfer Object) from this project",
+        "projectDate": "1564667880",
+        "role": "PWA Developer",
+        "client": "PT Redkendi Andalan Mitra",
+        "projectLink": "https://blukendi.com/home",
+        "images": [
+            "https://i.ibb.co/YyMjxm3/blukendi-logo.png",
+            "https://i.ibb.co/6R1Fk2G/Screen-Shot-2021-12-20-at-17-10-23.png",
+            "https://i.ibb.co/FnrHqkd/Screen-Shot-2021-12-20-at-17-10-28.png",
+            "https://i.ibb.co/09sk02K/IMG-7332.png",
+            "https://i.ibb.co/zRkkCQV/IMG-7333.png"
         ]
     }
 ]
