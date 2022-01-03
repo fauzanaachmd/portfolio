@@ -50,8 +50,7 @@
       <div id="posts" class="row gutter-isotope-item">
         <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
           *ngFor="let portfolio of portfolios | async">
-          <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-            data-id="1">
+          <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" attr.data-id="{{ portfolio.id }}">
             <div class="overlay">
               <span class="wrap-icon icon-link2"></span>
               <div class="portfolio-item-content">
@@ -59,7 +58,7 @@
                 <p>{{ portfolio.role }}</p>
               </div>
             </div>
-            <img [src]="portfolio.images[0]" class="lazyload  img-fluid" alt="Images" />
+            <img [src]="portfolio.images[0]" class="lazyload img-fluid" alt="Images"/>
           </a>
         </div>
       </div>

@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Sekolahmu",
         "shortDescription": "Learn from anywhere with a blended learning system, presenting a choice of programs for students, according to their focus and dreams.",
         "description": "The school with the first blended learning system in Indonesia. Solutions for better and more flexible educational needs. By combining online and offline methods. Your school offers a variety of programs that suit the needs of each user, starting from the need for online learning assistance, increasing learning abilities for competitiveness and meeting competency needs in order to achieve the desired goals.",
@@ -15,6 +16,7 @@
         ]
     },
     {
+        "id": 2,
         "name": "UseeTV",
         "shortDescription": "UseeTV GO provides the most complete Indonesia and International live streaming TV channels and thousands of the best cinema films from your smartphone!",
         "description": "So NBS get hired again to collaborate with Telkom team again to revamp UseeTV apps that I design before as a UI designer then now my role is as a iOS developer (yes it's a jump and I crossed it). Back again to topic, we develop again UseeTV become UseeTVGO with NBS new iOS codebase. What's new in this new codebase? That is we are using MVVM for architectural pattern and home made API general interactor (make it easy for developer to integrate API). You guys can check the app and take a look what me and my team made.",
@@ -29,6 +31,7 @@
         ]
     },
     {
+        "id": 3,
         "name": "Rumah Kisah IOS",
         "shortDescription": "Through the life stories of the Apostles, Prophets and Islamic figures. Children can get examples of noble character.",
         "description": "This is my second project as IOS Engineer. This is my first time supervise other team like giving advice, review their MR, and sharing knowledge. Thanks to my senior for trust me to support new team member. Rumah Kisah's highlighted feature is like my previous project (UseeTV Go Revamp), media player. But in this project the player is audio player like Spotify or Apple music. This new to me! There are 2 challenging part that I want to tell. The first part is download the audio file from server and saved it in local so user not stream from online but play from their local device actually. We used RealmSwift to manage the downloaded file. The second part is about the player and mini player that showed in multiple screen with current playing progress view. For the player we used Apple's AVAudioPlayerKit and for the mini player I solve it with making UIView and insert it to UIStackView that already placed in some viewcontrollers.",
@@ -44,6 +47,7 @@
         ]
     },
     {
+        "id": 4,
         "name": "Colibri Website",
         "shortDescription": "Co-living Made Easy with Colibri",
         "description": "In this project I use Laravel framework as a tools to build this web. The new experience that I had is using Google Maps Platform to build property search. Colibri offers premium living space that complements all your needs. From stylish room designs to full service, Colibri brings you the convenience of a hassle-free lifestyle to a strategic location to increase your flexibility in traveling between work and home. Get inspired and build your network by going through our passionate members of the Colibri community.",
@@ -59,6 +63,7 @@
         ]
     },
     {
+        "id": 5,
         "name": "Vanaya Digibrain Questionnaire",
         "shortDescription": "DigiBrain Executive Neurometric is a method designed to assess the readiness of organization leaders in the digital age, through neuro-behavior profiling",
         "description": "This project main feature is about online survey form for Vanaya's user after completing their neurotechnology test. I use Angular TS as a tools and RXJS for solving user behavior like fast-clicking the answer option when fill the form. When user click the answer option, then the app will send the answer to backend to save user's current progress in database. Then the team found a bug that show user can send multiple answer request when user fast click the option, this can tricky to handle on backend side which data is user want so it must be handled in front end. With RXJS, I can manage the answer form state. I can disabled the form after user clicked the answer and enabled again after the answer request network to backend is completed. So users can't flood the network to backend again.",
@@ -75,6 +80,7 @@
         ]
     },
     {
+        "id": 6,
         "name": "ACT News",
         "shortDescription": "Dapatkan pemberitahuan tentang berita kemanusiaan terbaru di ACT News",
         "description": "ACT News is a site that provides information about humanity organized by the ACT Foundation. Features available on the site are articles, media centers (electronic magazines, progress reports, and situation reports), and gallery features (photos & infographics). The technologies implemented on this site are: the use of the Laravel framework, NPM, SCSS, Firebase Web Push Notification, and the Youtube Embedded Player API. Also ACT News using self owned CMS for managing its content",
@@ -91,6 +97,7 @@
         ]
     },
     {
+        "id": 7,
         "name": "Blukendi",
         "shortDescription": "Blukendi Food Rating & Review PWA",
         "description": "Blukendi is part of PT Redkendi Andalan Mitra's product, the main feature of this app is user can reviewing food from their office caterers. We use Angular Typescript v6, bootstrap for responsive web design (I know this is too much but this what client ask for), jsqr (for scanning QR code from device camera), and angular material component for mobile looks and experience. To be honest, this is my first time implementing the new Angular typescript. Also I learn something new like DTO (Data Transfer Object) from this project",

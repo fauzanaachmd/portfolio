@@ -2,16 +2,18 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
 import * as AOS from 'aos';
+import { ActivatedRoute } from '@angular/router';
 
 interface PORTFOLIO {
-  name : string;
-  shortDescription : string;
-  description : string;
-  projectDate : string;
-  role : string;
-  client : string;
-  projectLink : string;
-  images : [string];
+  id: number
+  name: string
+  shortDescription: string
+  description: string
+  projectDate: string
+  role: string
+  client: string
+  projectLink: string
+  images: [string]
 }
 
 @Component({
@@ -20,21 +22,28 @@ interface PORTFOLIO {
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  portfolios = this.getPortfolio();
+  portfolios = this.getPortfolio()
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private route: ActivatedRoute
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     AOS.init({
       duration: 800,
       easing: 'ease',
       once: true,
    });
+
+   this.route.fragment
+    .subscribe(fragment => {
+      var element = document.getElementById(fragment as string)
+      element?.scrollIntoView()
+    });
   }
 
   getPortfolio() {
-    return this.http.get<PORTFOLIO[]>(environment.baseUrl + '/assets/json/portfolio.json');
+    return this.http.get<PORTFOLIO[]>(environment.baseUrl + '/assets/json/portfolio.json')
   }
 }
